@@ -1,0 +1,56 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007bff;
+  padding: 15px 20px;
+  color: white;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.menu {
+  display: flex;
+  gap: 15px;
+}
+
+.menu-item {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.menu-item:hover {
+  background-color: #e0f7fa;
+}
+
+.right-buttons .button {
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.button.inicio {
+  background-color: white;
+  color: black;
+}
+
+.button.registro {
+  background-color: black;
+  color: white;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+.margin-top {
+  margin-top: 10px;
+}

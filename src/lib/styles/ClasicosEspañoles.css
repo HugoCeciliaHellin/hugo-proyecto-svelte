@@ -1,0 +1,66 @@
+.clasicos {
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.clasicos-titulo {
+  background-color: #00d1c1;
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.clasicos-container {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.clasicos-item {
+  background-color: #00d1c1;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  width: 250px;
+  height: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.clasicos-imagen {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.clasicos-titulo-libro {
+  font-size: 1.2rem;
+  color: black;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.clasicos-descripcion {
+  font-size: 0.9rem;
+  color: black;
+  text-align: justify;
+  flex-grow: 1;
+  padding-top: 5px;
+}
+
+.clasicos-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}

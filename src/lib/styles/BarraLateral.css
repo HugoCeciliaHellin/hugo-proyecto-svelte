@@ -1,0 +1,59 @@
+.sidebar {
+  width: 250px;
+  background-color: #00d1c1;
+  color: black;
+  padding: 15px;
+  font-family: Arial, sans-serif;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: auto;
+  margin: 0;
+  float: left;
+}
+
+.titulo {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.lista {
+  margin: 10px 0;
+  font-size: 1rem;
+  cursor: pointer;
+  color: black;
+  transition: color 0.2s ease;
+}
+
+.lista li {
+  margin: 8px 0;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.lista li:hover {
+  text-decoration: underline;
+}
+
+.content {
+  margin-left: 270px;
+  padding: 20px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+}
+
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}

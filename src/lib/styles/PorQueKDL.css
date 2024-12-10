@@ -1,0 +1,50 @@
+.por-que-kdl {
+  background-color: #00d1c1;
+  border-radius: 12px;
+  padding: 10px;
+  margin: 10px auto;
+  width: 55%;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.titulo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 15px;
+}
+
+.razones-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.razon {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 10px;
+  width: 115px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.icono-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.icono {
+  width: 35px;
+  height: 35px;
+}
+
+.texto {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #000;
+}
